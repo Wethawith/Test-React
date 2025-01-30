@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import navbar from './components/navbar';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <header className="App-header">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Mangekyou_Sharingan_Shisui.svg/800px-Mangekyou_Sharingan_Shisui.svg.png" className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Mangekyou<code> Sharingan</code> Kotoamutsukami
         </p>
         <a
           className="App-link"
